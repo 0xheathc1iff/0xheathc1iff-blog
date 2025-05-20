@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Just Greeting. on Heathc1iff</title>
+    <link>http://localhost:1313/tags/just-greeting./</link>
+    <description>Recent content in Just Greeting. on Heathc1iff</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Mar 2025 12:30:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/just-greeting./index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 30 Mar 2025 08:20:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h3 id=&#34;-hi-there-hope-you-have-a-good-day&#34;&gt;👋 Hi There, Hope you have a good day.&lt;/h3&gt;</description>
+    </item>
+  </channel>
+</rss>

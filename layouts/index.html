@@ -1,0 +1,29 @@
+{{ define "main" }}
+  <main>
+   <div class="hero-container" style="text-align: center;">
+
+      {{ with .Site.Params.author.avatar }}
+        <div style="margin-bottom: 1.5rem;">
+          <img
+            src="{{ . | relURL }}"
+            alt="avatar"
+            style="border-radius: 50%; max-width: 200px; display: block; margin: 0 auto;
+                   box-shadow: 0 8px 20px rgba(0,0,0,0.3); border: 3px solid #444;" />
+        </div>
+      {{ end }}
+
+      <h1>{{ .Site.Title }}</h1>
+
+      {{ with .Site.Params.homeSubtitle }}
+        <p class="hero__description">{{ . }}</p>
+      {{ end }}
+
+      {{ with .Site.Params.social }}
+        <div style="margin-top: 1rem;">
+          {{ partial "social-icons.html" . }}
+        </div>
+      {{ end }}
+
+    </div>
+  </main>
+{{ end }}

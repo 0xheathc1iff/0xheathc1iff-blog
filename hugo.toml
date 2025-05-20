@@ -1,0 +1,80 @@
+baseURL = "https://yourdomain.netlify.app/"
+languageCode = "en-us"
+title = "Heathc1iff"
+theme = "hello-friend-ng"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+
+[params]
+  homeSubtitle = "< 🤖 AI Engineer | 🫆  DF Examier | 💻 Coder />"
+  enableSharingButtons = false 
+  enableThemeToggle = true
+  enableGlobalLanguageMenu = false
+  contentTypeName = "posts"
+  showReadingTime = true
+  dateFormat = "2006-01-02"
+  showLastUpdated = true
+  showMenuItems = 4
+  customCSS = ["css/custom.css"]
+  showWordCount = true
+
+  # Social icons
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/yourusername"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/yourusername"
+
+  [[params.social]]
+  name = "youtube"
+  url = "https://www.youtube.com/@yourchannel"
+
+  # Author section
+  [params.author]
+    name = "Heathcliff"
+    avatar = "avatar.png" # วางรูปไว้ใน static/avatar.jpg
+
+[params.Logo]
+logoText = "heathc1iff"
+
+# Navigation menu
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 2
+
+# [[menu.main]]
+#   identifier = "contact"
+#   name = "Contact"
+#   url = "/contact/"
+#   weight = 3
+
+# [[menu.main]]
+#   identifier = "github"
+#   name = "GitHub"
+#   url = "https://github.com/yourusername"
+#   weight = 4
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    guessSyntax = true
+    codeFences = true
+    lineNos = true
+
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[pagination]
+  pagerSize = 10
+
+enableGitInfo = true

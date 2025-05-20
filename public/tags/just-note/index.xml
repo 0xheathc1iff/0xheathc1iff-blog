@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Just-Note on Heathc1iff</title>
+    <link>http://localhost:1313/tags/just-note/</link>
+    <description>Recent content in Just-Note on Heathc1iff</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 May 2025 00:52:05 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/just-note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Network Foundations</title>
+      <link>http://localhost:1313/posts/network-foundations/</link>
+      <pubDate>Wed, 21 May 2025 00:52:05 +0700</pubDate>
+      <guid>http://localhost:1313/posts/network-foundations/</guid>
+      <description>&lt;h2 id=&#34;introduction-to-networks&#34;&gt;Introduction to Networks&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;LANs - Local Area Networks&lt;/li&gt;&#xA;&lt;li&gt;WANs - Wide Area Networks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Types of Networks vary in size and scope.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;img src=&#34;image.png&#34; alt=&#34;image.png&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;how-lans-and-wans-work-together&#34;&gt;How LANs and WANs work together?&lt;/h3&gt;&#xA;&lt;p&gt;When accessing the internet, a home LAN connects to an Internet Service Provider’s (ISP)&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;network-concept&#34;&gt;Network Concept&lt;/h2&gt;&#xA;&lt;p&gt;Networking is foundational to modern technology, underlying nearly all systems through the TCP/IP stack. This section introduces core networking concepts, focusing on models and protocols that guide data exchange.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

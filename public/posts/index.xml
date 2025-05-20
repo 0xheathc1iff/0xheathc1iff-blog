@@ -1,0 +1,231 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Heathc1iff</title>
+        <link>http://localhost:1313/posts/</link>
+        <description>Recent content in Posts on Heathc1iff</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 21 May 2025 00:52:05 +0700</lastBuildDate>
+        <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Network Foundations</title>
+            <link>http://localhost:1313/posts/network-foundations/</link>
+            <pubDate>Wed, 21 May 2025 00:52:05 +0700</pubDate>
+            
+            <guid>http://localhost:1313/posts/network-foundations/</guid>
+            <description>&lt;h2 id=&#34;introduction-to-networks&#34;&gt;Introduction to Networks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;LANs - Local Area Networks&lt;/li&gt;
+&lt;li&gt;WANs - Wide Area Networks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Types of Networks vary in size and scope.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;image.png&#34; alt=&#34;image.png&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;how-lans-and-wans-work-together&#34;&gt;How LANs and WANs work together?&lt;/h3&gt;
+&lt;p&gt;When accessing the internet, a home LAN connects to an Internet Service Provider’s (ISP)&lt;/p&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;network-concept&#34;&gt;Network Concept&lt;/h2&gt;
+&lt;p&gt;Networking is foundational to modern technology, underlying nearly all systems through the TCP/IP stack. This section introduces core networking concepts, focusing on models and protocols that guide data exchange.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<h2 id="introduction-to-networks">Introduction to Networks</h2>
+<ul>
+<li>LANs - Local Area Networks</li>
+<li>WANs - Wide Area Networks</li>
+</ul>
+<p>Types of Networks vary in size and scope.</p>
+<hr>
+<p><img src="image.png" alt="image.png"></p>
+<hr>
+<h3 id="how-lans-and-wans-work-together">How LANs and WANs work together?</h3>
+<p>When accessing the internet, a home LAN connects to an Internet Service Provider’s (ISP)</p>
+<hr>
+<hr>
+<h2 id="network-concept">Network Concept</h2>
+<p>Networking is foundational to modern technology, underlying nearly all systems through the TCP/IP stack. This section introduces core networking concepts, focusing on models and protocols that guide data exchange.</p>
+<h3 id="osi-model-overview-7-layers"><strong>OSI Model Overview (7 Layers):</strong></h3>
+<ol>
+<li>
+<p><strong>Physical Layer (L1):</strong></p>
+<p>Deals with raw bit transmission via physical hardware (e.g., cables, hubs).</p>
+</li>
+<li>
+<p><strong>Data Link Layer (L2):</strong></p>
+<p>Manages direct node-to-node data transfer using MAC addresses; devices like switches operate here.</p>
+</li>
+<li>
+<p><strong>Network Layer (L3):</strong></p>
+<p>Routes data across networks using IP addresses; routers function at this level.</p>
+</li>
+<li>
+<p><strong>Transport Layer (L4):</strong></p>
+<p>Ensures end-to-end communication. TCP offers reliable delivery; UDP provides faster but less reliable service.</p>
+</li>
+<li>
+<p><strong>Session Layer (L5):</strong></p>
+<p>Manages, maintains, and terminates communication sessions between systems.</p>
+</li>
+<li>
+<p><strong>Presentation Layer (L6):</strong></p>
+<p>Translates data formats, handles encryption/decryption and compression.</p>
+</li>
+<li>
+<p><strong>Application Layer (L7):</strong></p>
+<p>Interfaces with end-user applications; uses protocols like HTTP, FTP, SMTP, and DNS.</p>
+</li>
+</ol>
+<p>These layers help standardize network functions, making systems interoperable and communication efficient.</p>
+<p><img src="image%201.png" alt="image.png"></p>
+<hr>
+<h3 id="tcpip-model-summary"><strong>TCP/IP Model Summary</strong></h3>
+<p>The <strong>TCP/IP model</strong> is a simplified, practical version of the OSI model, designed specifically for real-world internet and network communication. It has <strong>four layers</strong>:</p>
+<ol>
+<li>
+<p><strong>Link Layer</strong></p>
+<p>Handles physical connections and data framing. Covers Ethernet, Wi-Fi, and other hardware-level protocols.</p>
+<p><em>(Equivalent to OSI Layers 1–2: Physical + Data Link)</em></p>
+</li>
+<li>
+<p><strong>Internet Layer</strong></p>
+<p>Manages logical addressing (e.g., IP addresses) and packet routing across networks using protocols like IP and ICMP.</p>
+<p><em>(Equivalent to OSI Layer 3: Network)</em></p>
+</li>
+<li>
+<p><strong>Transport Layer</strong></p>
+<p>Ensures end-to-end communication using TCP (reliable) or UDP (faster but unreliable). Handles packet sequencing and error checking.</p>
+<p><em>(Equivalent to OSI Layer 4: Transport)</em></p>
+</li>
+<li>
+<p><strong>Application Layer</strong></p>
+<p>Supports services like web browsing (HTTP), file transfers (FTP), and email (SMTP). Provides interfaces for apps to communicate over the network.</p>
+<p><em>(Covers OSI Layers 5–7: Session, Presentation, Application)</em></p>
+<p><img src="image%202.png" alt="image.png"></p>
+</li>
+</ol>
+<hr>
+<h3 id="common-network-protocols">Common Network Protocols</h3>
+<p><img src="image%203.png" alt="image.png"></p>
+<hr>
+<h3 id="transmission-in-networking">Transmission in Networking</h3>
+<p><strong>Transmission</strong> refers to the process of sending data between devices over a medium. It involves three key aspects:</p>
+<ol>
+<li><strong>Transmission Types</strong>
+<ul>
+<li><strong>Analog</strong>: Continuous signals (e.g., radio broadcasts).</li>
+<li><strong>Digital</strong>: Discrete signals (bits), used in modern networks and digital communication.</li>
+</ul>
+</li>
+<li><strong>Transmission Modes</strong>
+<ul>
+<li><strong>Simplex</strong>: One-way only (e.g., keyboard to computer).</li>
+<li><strong>Half-Duplex</strong>: Two-way, but one at a time (e.g., walkie-talkies).</li>
+<li><strong>Full-Duplex</strong>: Two-way, simultaneous (e.g., phone calls).</li>
+</ul>
+</li>
+<li><strong>Transmission Media</strong>
+<ul>
+<li><strong>Wired</strong>: Includes twisted pair cables (Ethernet), coaxial cables (TV), and fiber optics (high-speed internet).</li>
+<li><strong>Wireless</strong>: Includes radio waves (Wi-Fi), microwaves (satellites), and infrared (short-range devices).</li>
+</ul>
+</li>
+</ol>
+<p>Each medium and mode is chosen based on the network’s needs for speed, range, and reliability.</p>
+<hr>
+<hr>
+<h2 id="components-of-a-network">Components of a Network</h2>
+<p>Modern computer networks rely on various hardware and software components that work together to enable data transmission, communication, and internet access.</p>
+<h3 id="-1-end-devices">🔹 <strong>1. End Devices</strong></h3>
+<ul>
+<li><strong>Examples</strong>: Computers, smartphones, tablets, IoT devices</li>
+<li><strong>Function</strong>: Send and receive data; user-facing part of the network</li>
+<li><strong>Interface</strong>: Use wired (Ethernet) or wireless (Wi-Fi) connections</li>
+</ul>
+<h3 id="-2-intermediary-devices">🔹 <strong>2. Intermediary Devices</strong></h3>
+<ul>
+<li><strong>Examples</strong>: Routers, switches, modems, access points</li>
+<li><strong>Function</strong>: Direct and manage traffic between devices or networks</li>
+<li><strong>Roles</strong>: Routing, packet forwarding, congestion control, security</li>
+</ul>
+<h3 id="-3-network-interface-cards-nics">🔹 <strong>3. Network Interface Cards (NICs)</strong></h3>
+<ul>
+<li><strong>Function</strong>: Connects a device to the network (wired or wireless)</li>
+<li><strong>Each NIC</strong> has a unique MAC address; operates at Layer 2</li>
+</ul>
+<h3 id="-4-routers">🔹 <strong>4. Routers</strong></h3>
+<ul>
+<li><strong>Layer</strong>: OSI Layer 3 (Network)</li>
+<li><strong>Function</strong>: Forward data between networks using IP addresses and routing protocols (e.g., OSPF, BGP)</li>
+</ul>
+<h3 id="-5-switches">🔹 <strong>5. Switches</strong></h3>
+<ul>
+<li><strong>Layer</strong>: OSI Layer 2 (Data Link)</li>
+<li><strong>Function</strong>: Connect devices in a LAN; forwards data to the correct MAC address, reducing congestion</li>
+</ul>
+<h3 id="-6-hubs">🔹 <strong>6. Hubs</strong></h3>
+<ul>
+<li><strong>Layer</strong>: OSI Layer 1 (Physical)</li>
+<li><strong>Function</strong>: Outdated; broadcasts data to all ports (inefficient)</li>
+</ul>
+<h3 id="-7-network-media--software-components">🔹 <strong>7. Network Media &amp; Software Components</strong></h3>
+<ul>
+<li><strong>Media</strong>: Cables (Ethernet, fiber), wireless (Wi-Fi, Bluetooth)</li>
+<li><strong>Software</strong>: Protocols (TCP/IP, HTTP, FTP), management tools, firewalls</li>
+</ul>
+<h3 id="-8-cabling-and-connectors">🔹 <strong>8. Cabling and Connectors</strong></h3>
+<ul>
+<li><strong>Examples</strong>: Ethernet cables, RJ-45 plugs</li>
+<li><strong>Function</strong>: Provide physical paths for data transmission</li>
+</ul>
+<h3 id="-9-network-protocols">🔹 <strong>9. Network Protocols</strong></h3>
+<ul>
+<li><strong>Function</strong>: Set rules for communication</li>
+<li><strong>Examples</strong>:
+<ul>
+<li><strong>TCP/IP</strong> – Internet backbone</li>
+<li><strong>HTTP/HTTPS</strong> – Web browsing</li>
+<li><strong>FTP</strong> – File transfer</li>
+<li><strong>SMTP</strong> – Email</li>
+</ul>
+</li>
+</ul>
+<h3 id="-10-network-management-software">🔹 <strong>10. Network Management Software</strong></h3>
+<ul>
+<li><strong>Function</strong>: Monitor and configure networks, detect faults, enforce security</li>
+<li><strong>Used by</strong>: IT admins to manage enterprise networks</li>
+</ul>
+<h3 id="-11-software-firewalls">🔹 <strong>11. Software Firewalls</strong></h3>
+<ul>
+<li><strong>Function</strong>: Protect individual devices by filtering traffic</li>
+<li><strong>Role</strong>: Guard against unauthorized access, complement network-level security</li>
+</ul>
+<h3 id="-12-servers">🔹 <strong>12. Servers</strong></h3>
+<ul>
+<li><strong>Types</strong>: Web, file, mail, database servers</li>
+<li><strong>Function</strong>: Provide services/resources to clients; handle authentication, data storage, and access control</li>
+<li><strong>Model</strong>: Client-Server</li>
+</ul>
+<hr>
+<h3 id="a-functional-network-requires">A functional network requires:</h3>
+<ul>
+<li>
+<p><strong>End devices</strong> (user interaction),</p>
+</li>
+<li>
+<p><strong>Intermediary devices</strong> (data direction/control),</p>
+</li>
+<li>
+<p><strong>Servers</strong> (resource delivery), and</p>
+</li>
+<li>
+<p><strong>Media + protocols</strong> (transmission &amp; communication rules)</p>
+<p>Together, they enable the internet and modern digital communication.</p>
+</li>
+</ul>
+<hr>
+<hr>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
