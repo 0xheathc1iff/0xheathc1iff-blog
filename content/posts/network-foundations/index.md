@@ -1,7 +1,7 @@
 ---
 title: "Network Foundations"
 date: 2025-05-21T00:52:05+07:00
-draft: true
+draft: false
 toc: false
 images:
 tags:
