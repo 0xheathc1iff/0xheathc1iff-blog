@@ -1,6 +1,6 @@
 baseURL = "https://yourdomain.netlify.app/"
 languageCode = "en-us"
-title = "Heathc1iff"
+title = "0xheathc1iff"
 theme = "hello-friend-ng"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
@@ -21,7 +21,7 @@ enableRobotsTXT = true
   # Social icons
   [[params.social]]
     name = "github"
-    url = "https://github.com/yourusername"
+    url = "https://github.com/0xheathc1iff"
 
   [[params.social]]
     name = "linkedin"
@@ -29,15 +29,16 @@ enableRobotsTXT = true
 
   [[params.social]]
   name = "youtube"
-  url = "https://www.youtube.com/@yourchannel"
+  url = "https://www.youtube.com/@0xheathc1iff"
 
   # Author section
   [params.author]
-    name = "Heathcliff"
-    avatar = "avatar.png" # วางรูปไว้ใน static/avatar.jpg
+    name = "0xheathc1iff"
+    avatar = "avatar.png"
 
 [params.Logo]
-logoText = "heathc1iff"
+logoText = "0xheathc1iff"
+logoMark = "$"
 
 # Navigation menu
 [[menu.main]]
