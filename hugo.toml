@@ -17,6 +17,7 @@ enableRobotsTXT = true
   showMenuItems = 4
   customCSS = ["css/custom.css"]
   showWordCount = true
+  sectionPagesMenu = "main"
 
   # Social icons
   [[params.social]]
