@@ -6,7 +6,7 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 
 [params]
-  homeSubtitle = "< 🤖 AI Engineer | 🫆  DF Examier | 💻 Coder />"
+  homeSubtitle = "< 🫆  DF Examier | 💻 Coder />"
   enableSharingButtons = false 
   enableThemeToggle = true
   enableGlobalLanguageMenu = false
